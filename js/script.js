@@ -1,0 +1,2 @@
+const menuBtn=document.querySelector('.menu-btn');const nav=document.querySelector('.nav-links');if(menuBtn){menuBtn.addEventListener('click',()=>nav.classList.toggle('open'))}
+document.querySelectorAll('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;document.querySelectorAll('[data-category]').forEach(card=>card.classList.toggle('hidden',f!=='all'&&card.dataset.category!==f))}));
