@@ -1,0 +1,40 @@
+DARKSONIC872 — INDEX V2.2
+=========================
+
+Tu peux remplacer les images ci-dessous SANS modifier le code.
+Il suffit de garder exactement le même nom et la même extension.
+
+BANNIÈRE PRINCIPALE
+images/hero/banniere.png
+
+LOGO DU PETIT MENU EN HAUT
+images/logo-darksonic872.png
+
+3 CARTES DE RÉSEAUX EN HAUT
+images/buttons/twitch.svg
+images/buttons/noragegaming.svg
+images/buttons/le-syndicate.svg
+
+5 CARTES « BIENVENUE DANS MON UNIVERS »
+images/categories/collections.svg
+images/categories/jeux-de-coeur.svg
+images/categories/defis.svg
+images/categories/emissions.svg
+images/categories/evenements.svg
+
+IMAGE DÉCORATIVE « OÙ ME RETROUVER »
+images/social/ou-me-retrouver.svg
+
+IMAGE DE FOND / SECOURS POUR LA ZONE TWITCH
+images/live/offline-cover.svg
+
+CONSEIL
+-------
+Si ton image est en PNG ou JPG mais que le fichier actuel est en SVG,
+le plus simple est soit :
+1) l'exporter dans le même format que le fichier à remplacer,
+ou
+2) modifier le chemin correspondant dans data/config.json ou data/home.json.
+
+Pour la bannière, le fichier est déjà en PNG :
+images/hero/banniere.png

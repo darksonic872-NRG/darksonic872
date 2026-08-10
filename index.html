@@ -14,7 +14,7 @@
   <header class="site-header">
     <div class="wrap nav">
       <a class="brand" href="index.html" aria-label="Accueil DarkSonic872">
-        <img src="images/logo-darksonic872.png" alt="DarkSonic872">
+        <img id="header-logo" src="images/logo-darksonic872.png" alt="DarkSonic872">
       </a>
 
       <button class="menu-btn" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
@@ -28,12 +28,7 @@
         <a href="evenements.html">Événements</a>
       </nav>
 
-      <div class="header-socials" aria-label="Réseaux sociaux">
-        <a href="https://www.twitch.tv/norage_gaming" target="_blank" rel="noopener noreferrer" aria-label="Twitch">T</a>
-        <a href="https://discord.com/invite/4Ws2apFkZa" target="_blank" rel="noopener noreferrer" aria-label="Discord NorageGaming">N</a>
-        <a href="https://discord.com/invite/JJZ3wp2UWv" target="_blank" rel="noopener noreferrer" aria-label="Discord Le Syndicate">S</a>
-        <a href="https://www.youtube.com/@noragegaming2738" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
-      </div>
+      <div class="header-socials" id="header-socials" aria-label="Réseaux sociaux"></div>
     </div>
   </header>
 
@@ -42,42 +37,9 @@
       <div class="hero-glow hero-glow-one"></div>
       <div class="hero-glow hero-glow-two"></div>
       <div class="wrap hero-content">
-        <img class="hero-logo" src="images/hero/banniere.png" alt="Bannière DarkSonic872">
-        <p class="hero-tagline">
-          <span>⚡ Streamer fou</span>
-          <span>🎮 Collectionneur</span>
-          <span>〰 Moustache sublime</span>
-          <span>☺ Bonne humeur</span>
-        </p>
-
-        <div class="hero-links">
-          <a class="network-card twitch-card" href="https://www.twitch.tv/norage_gaming" target="_blank" rel="noopener noreferrer">
-            <span class="network-image editable-image">Image Twitch</span>
-            <span class="network-copy">
-              <strong>Voir mes lives</strong>
-              <small>Lives, rediffusions et clips</small>
-            </span>
-            <span class="network-arrow">→</span>
-          </a>
-
-          <a class="network-card norage-card" href="https://discord.com/invite/4Ws2apFkZa" target="_blank" rel="noopener noreferrer">
-            <span class="network-image editable-image">Image NorageGaming</span>
-            <span class="network-copy">
-              <strong>NorageGaming</strong>
-              <small>La communauté gaming du stream</small>
-            </span>
-            <span class="network-arrow">→</span>
-          </a>
-
-          <a class="network-card syndicate-card" href="https://discord.com/invite/JJZ3wp2UWv" target="_blank" rel="noopener noreferrer">
-            <span class="network-image editable-image">Image Le Syndicate</span>
-            <span class="network-copy">
-              <strong>Le Syndicate</strong>
-              <small>Collection, entraide et passion</small>
-            </span>
-            <span class="network-arrow">→</span>
-          </a>
-        </div>
+        <img class="hero-banner" id="hero-banner" src="images/hero/banniere.png" alt="Bannière DarkSonic872">
+        <p class="hero-tagline" id="hero-tagline"></p>
+        <div class="hero-links" id="hero-links"></div>
       </div>
     </section>
 
@@ -85,56 +47,10 @@
       <div class="wrap">
         <div class="section-heading">
           <span></span>
-          <h1>Bienvenue dans mon univers</h1>
+          <h1 id="universe-title">Bienvenue dans mon univers</h1>
           <span></span>
         </div>
-
-        <div class="universe-grid">
-          <a class="universe-card collections-card" href="collections.html">
-            <div class="card-visual editable-image">Image Collections</div>
-            <div class="card-content">
-              <p>Le musée des</p>
-              <h2>Collections</h2>
-              <span>Explore mes consoles, mes jeux et mes objets rétro.</span>
-            </div>
-          </a>
-
-          <a class="universe-card hearts-card" href="jeux-de-coeur.html">
-            <div class="card-visual editable-image">Image Jeux de cœur</div>
-            <div class="card-content">
-              <p>La salle des</p>
-              <h2>Jeux de cœur</h2>
-              <span>Mes jeux préférés, toutes époques confondues.</span>
-            </div>
-          </a>
-
-          <a class="universe-card challenges-card" href="defis.html">
-            <div class="card-visual editable-image">Image Défis</div>
-            <div class="card-content">
-              <p>Le tableau des</p>
-              <h2>Défis</h2>
-              <span>Challenges, objectifs et exploits en live.</span>
-            </div>
-          </a>
-
-          <a class="universe-card shows-card" href="emissions.html">
-            <div class="card-visual editable-image">Image Émissions</div>
-            <div class="card-content">
-              <p>Le studio des</p>
-              <h2>Émissions</h2>
-              <span>Mes formats, mes concepts et mes émissions.</span>
-            </div>
-          </a>
-
-          <a class="universe-card events-card" href="evenements.html">
-            <div class="card-visual editable-image">Image Événements</div>
-            <div class="card-content">
-              <p>Les archives des</p>
-              <h2>Événements</h2>
-              <span>Marathons, tournois et rendez-vous spéciaux.</span>
-            </div>
-          </a>
-        </div>
+        <div class="universe-grid" id="universe-grid"></div>
       </div>
     </section>
 
@@ -159,42 +75,18 @@
 
           <div class="live-actions">
             <div>
-              <h2>La chaîne Norage Gaming</h2>
-              <p>Le lecteur Twitch affiche automatiquement le direct lorsque la chaîne est en ligne, ou l’écran hors ligne dans le cas contraire.</p>
+              <h2 id="live-title">La chaîne Norage Gaming</h2>
+              <p>Le lecteur Twitch affiche le direct quand la chaîne est en ligne et l’écran hors ligne le reste du temps.</p>
             </div>
-            <a class="btn btn-twitch" href="https://www.twitch.tv/norage_gaming" target="_blank" rel="noopener noreferrer">Rejoindre la chaîne</a>
+            <a class="btn btn-twitch" id="live-button" href="#" target="_blank" rel="noopener noreferrer">Rejoindre la chaîne</a>
           </div>
         </article>
 
         <aside class="find-me-panel">
-          <div class="panel-title">
-            <p>Où me retrouver</p>
-          </div>
-
-          <div class="find-links">
-            <a href="https://www.twitch.tv/norage_gaming" target="_blank" rel="noopener noreferrer">
-              <span class="find-icon twitch-icon">T</span>
-              <span><strong>Twitch</strong><small>Lives, rediffusions et clips</small></span>
-              <b>→</b>
-            </a>
-
-            <a href="https://discord.com/invite/4Ws2apFkZa" target="_blank" rel="noopener noreferrer">
-              <span class="find-icon norage-icon">N</span>
-              <span><strong>NorageGaming</strong><small>Communauté gaming du stream</small></span>
-              <b>→</b>
-            </a>
-
-            <a href="https://discord.com/invite/JJZ3wp2UWv" target="_blank" rel="noopener noreferrer">
-              <span class="find-icon syndicate-icon">S</span>
-              <span><strong>Le Syndicate</strong><small>Collection, entraide et passion</small></span>
-              <b>→</b>
-            </a>
-
-            <a href="https://www.youtube.com/@noragegaming2738" target="_blank" rel="noopener noreferrer">
-              <span class="find-icon youtube-icon">▶</span>
-              <span><strong>YouTube</strong><small>Vidéos, replays et meilleurs moments</small></span>
-              <b>→</b>
-            </a>
+          <div class="panel-title"><p>Où me retrouver</p></div>
+          <div class="find-me-layout">
+            <div class="find-links" id="find-links"></div>
+            <div class="find-me-art image-slot" id="find-me-art" role="img" aria-label="Décoration Où me retrouver"></div>
           </div>
         </aside>
       </div>
@@ -203,7 +95,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-content">
-      <p>© 2026 DarkSonic872 — Tous droits réservés</p>
+      <p id="copyright">© 2026 DarkSonic872 — Tous droits réservés</p>
       <p>Fait avec <span>♥</span> et beaucoup de café ☕</p>
     </div>
   </footer>

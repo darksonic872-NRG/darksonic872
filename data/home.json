@@ -1,0 +1,45 @@
+{
+  "universeTitle": "Bienvenue dans mon univers",
+  "sections": [
+    {
+      "id": "collections",
+      "kicker": "Le musée des",
+      "titre": "Collections",
+      "description": "Explore mes consoles, mes jeux et mes objets rétro.",
+      "lien": "collections.html",
+      "image": "images/categories/collections.svg"
+    },
+    {
+      "id": "hearts",
+      "kicker": "La salle des",
+      "titre": "Jeux de cœur",
+      "description": "Mes jeux préférés et ceux que j'ai envie de te faire découvrir.",
+      "lien": "jeux-de-coeur.html",
+      "image": "images/categories/jeux-de-coeur.svg"
+    },
+    {
+      "id": "challenges",
+      "kicker": "Le tableau des",
+      "titre": "Défis",
+      "description": "Challenges, objectifs et exploits en live.",
+      "lien": "defis.html",
+      "image": "images/categories/defis.svg"
+    },
+    {
+      "id": "shows",
+      "kicker": "Le studio des",
+      "titre": "Émissions",
+      "description": "Mes formats, mes concepts et mes émissions.",
+      "lien": "emissions.html",
+      "image": "images/categories/emissions.svg"
+    },
+    {
+      "id": "events",
+      "kicker": "Les archives des",
+      "titre": "Événements",
+      "description": "Marathons, tournois et rendez-vous spéciaux.",
+      "lien": "evenements.html",
+      "image": "images/categories/evenements.svg"
+    }
+  ]
+}

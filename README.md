@@ -1,16 +1,53 @@
-# Site DarkSonic872
+# DarkSonic872 — V2.2
 
-Site statique multi-pages en HTML, CSS et JavaScript, prêt pour GitHub Pages.
+Base complète du site, avec l'index modulaire et tous les emplacements d'images préparés.
 
-## Modifier facilement
-- Textes : ouvrir les fichiers `.html`.
-- Couleurs : modifier les variables en haut de `css/style.css`.
-- Images : remplacer les fichiers dans `images/` en gardant les mêmes noms, ou modifier les chemins dans le HTML.
-- Liens Twitch/YouTube/Discord : rechercher `https://` dans `index.html`.
+## Mise à jour GitHub
 
-## Publier sur GitHub Pages
-1. Créer un dépôt public sur GitHub.
-2. Importer le contenu de ce dossier à la racine du dépôt.
-3. Ouvrir **Settings > Pages**.
-4. Dans **Build and deployment**, choisir **Deploy from a branch**.
-5. Choisir la branche `main` et le dossier `/ (root)`, puis enregistrer.
+Le plus simple est de remplacer l'ancienne version du dépôt par le contenu de ce dossier.
+`index.html` doit rester à la racine du dépôt.
+
+Structure principale :
+
+```text
+index.html
+collections.html
+jeux-de-coeur.html
+defis.html
+emissions.html
+evenements.html
+css/
+js/
+data/
+images/
+```
+
+## Bannière de l'accueil
+
+Remplacer :
+
+```text
+images/hero/banniere.png
+```
+
+Il n'y a rien à modifier dans `index.html` : le chemin est déjà configuré dans `data/config.json`.
+
+## Toutes les images de l'index
+
+Voir le fichier :
+
+```text
+IMAGES-A-REMPLACER.txt
+```
+
+Les textes et liens généraux sont dans `data/config.json`.
+Les cinq cartes de navigation de l'accueil sont dans `data/home.json`.
+
+## Twitch
+
+La chaîne configurée est `norage_gaming`.
+Le lecteur Twitch utilise automatiquement le domaine du site comme paramètre `parent`, ce qui convient à GitHub Pages.
+
+## Important pour les fichiers JSON
+
+Pour tester en local, utiliser Live Server ou un petit serveur local. Un double-clic sur `index.html` peut empêcher le navigateur de charger les fichiers JSON.

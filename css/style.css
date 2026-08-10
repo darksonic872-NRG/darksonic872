@@ -113,12 +113,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-glow-one { width: 360px; height: 360px; left: -100px; top: 50px; background: var(--blue); }
 .hero-glow-two { width: 360px; height: 360px; right: -100px; top: 20px; background: var(--purple); }
 .hero-content { position: relative; z-index: 2; text-align: center; }
-.hero-logo {
-  width: min(900px, 88vw);
-  max-height: 300px;
+.hero-banner {
+  display: block;
+  width: min(950px, 92vw);
+  max-height: 320px;
   object-fit: contain;
-  margin: 0 auto -5px;
-  filter: drop-shadow(0 0 18px rgba(57,160,255,.35)) drop-shadow(0 0 34px rgba(192,67,255,.26));
+  margin: 0 auto 18px;
+  border-radius: 18px;
+  filter: drop-shadow(0 0 18px rgba(57,160,255,.28)) drop-shadow(0 0 34px rgba(192,67,255,.20));
   animation: logo-in .9s ease both;
 }
 @keyframes logo-in { from { opacity: 0; transform: translateY(-18px) scale(.97); } to { opacity: 1; transform: none; } }
@@ -247,7 +249,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 @media (max-width: 560px) {
   .wrap { width: min(100% - 24px, 1320px); }
-  .hero-logo { width: 100%; margin-bottom: 10px; }
+  .hero-banner { width: 100%; margin-bottom: 14px; border-radius: 12px; }
   .hero-tagline { gap: 8px 16px; font-size: .9rem; }
   .network-card { grid-template-columns: 58px 1fr auto; }
   .network-image { width: 58px; height: 58px; }
@@ -259,4 +261,66 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .live-actions { align-items: stretch; flex-direction: column; }
   .btn { width: 100%; }
   .footer-content { padding: 18px 0; align-items: flex-start; flex-direction: column; gap: 6px; }
+}
+
+/* ===== V2 : images pilotées par JSON ===== */
+.image-slot {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.network-image.image-slot {
+  padding: 0;
+  border-style: solid;
+  color: transparent;
+  overflow: hidden;
+}
+.card-visual.image-slot {
+  position: relative;
+  overflow: hidden;
+  color: transparent;
+}
+.card-visual.image-slot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 45%, rgba(3,5,14,.72));
+  pointer-events: none;
+}
+.data-error {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 18px;
+  border: 1px solid rgba(255,79,98,.45);
+  border-radius: 12px;
+  background: rgba(255,79,98,.08);
+  color: #ffd7dc;
+}
+
+/* --- V2.2 : emplacements d'images faciles à remplacer --- */
+.find-me-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 18px;
+  align-items: stretch;
+}
+.find-me-art {
+  min-height: 230px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(94,181,255,.25);
+  opacity: .92;
+}
+.twitch-frame-wrap {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.twitch-frame-wrap iframe {
+  background: transparent;
+}
+@media (max-width: 900px) {
+  .find-me-layout { grid-template-columns: 1fr; }
+  .find-me-art { min-height: 180px; }
 }

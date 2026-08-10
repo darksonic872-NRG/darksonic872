@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11182e"/>
+      <stop offset="0.55" stop-color="#18254a"/>
+      <stop offset="1" stop-color="#32185a"/>
+    </linearGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#63d8ff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="24" fill="url(#g)"/>
+  <rect width="800" height="450" rx="24" fill="url(#p)"/>
+  <circle cx="680" cy="80" r="120" fill="#a948ff" opacity=".12"/>
+  <circle cx="130" cy="390" r="160" fill="#42dfff" opacity=".1"/>
+  <text x="400" y="210" text-anchor="middle" fill="#f6f7ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">COLLECTIONS</text>
+  <text x="400" y="260" text-anchor="middle" fill="#aeb8d5" font-family="Arial, sans-serif" font-size="22">Ta photo de collection ici</text>
+</svg>

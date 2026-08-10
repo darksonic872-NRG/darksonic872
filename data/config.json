@@ -1,0 +1,44 @@
+{
+  "site": {
+    "pseudo": "DarkSonic872",
+    "slogan": [
+      "Streamer fou",
+      "Collectionneur",
+      "Moustache sublime",
+      "Bonne humeur"
+    ],
+    "logo": "images/logo-darksonic872.png",
+    "copyright": "© 2026 DarkSonic872 — Tous droits réservés",
+    "banner": "images/hero/banniere.png",
+    "findMeImage": "images/social/ou-me-retrouver.svg",
+    "offlineImage": "images/live/offline-cover.svg"
+  },
+  "twitch": {
+    "channel": "norage_gaming",
+    "url": "https://www.twitch.tv/norage_gaming",
+    "label": "Voir mes lives",
+    "description": "Lives, rediffusions et clips",
+    "image": "images/buttons/twitch.svg"
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@noragegaming2738",
+    "label": "YouTube",
+    "description": "Vidéos, replays et meilleurs moments"
+  },
+  "discords": [
+    {
+      "id": "norage",
+      "nom": "NorageGaming",
+      "url": "https://discord.com/invite/4Ws2apFkZa",
+      "description": "La communauté gaming du stream",
+      "image": "images/buttons/noragegaming.svg"
+    },
+    {
+      "id": "syndicate",
+      "nom": "Le Syndicate",
+      "url": "https://discord.com/invite/JJZ3wp2UWv",
+      "description": "Collection, entraide et passion",
+      "image": "images/buttons/le-syndicate.svg"
+    }
+  ]
+}
