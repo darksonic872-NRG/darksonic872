@@ -142,9 +142,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
   transition: transform .22s ease, box-shadow .22s ease;
 }
 .network-card:hover { transform: translateY(-6px); }
-.twitch-card { border-color: rgba(211,85,255,.8); box-shadow: 0 0 28px rgba(187,64,255,.16); }
-.norage-card { border-color: rgba(56,154,255,.8); box-shadow: 0 0 28px rgba(56,154,255,.16); }
-.syndicate-card { border-color: rgba(68,241,118,.75); box-shadow: 0 0 28px rgba(68,241,118,.14); }
+ .twitch-card { border-color: rgba(211,85,255,.82); box-shadow: 0 0 28px rgba(187,64,255,.18); }
+.norage-card { border-color: rgba(56,196,255,.82); box-shadow: 0 0 28px rgba(56,196,255,.18); }
+.syndicate-card { border-color: rgba(231,66,255,.82); box-shadow: 0 0 30px rgba(214,49,255,.20); }
+.twitch-card:hover { box-shadow: 0 0 34px rgba(187,64,255,.34); }
+.norage-card:hover { box-shadow: 0 0 34px rgba(56,196,255,.32); }
+.syndicate-card:hover { border-color: #f05cff; box-shadow: 0 0 36px rgba(231,66,255,.38), 0 0 14px rgba(95,80,255,.20); }
 .network-image {
   width: 66px; height: 66px;
   display: grid; place-items: center;
@@ -158,9 +161,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .network-copy { display: flex; flex-direction: column; gap: 5px; }
 .network-copy strong { font-family: Orbitron, sans-serif; text-transform: uppercase; font-size: 1.02rem; }
-.twitch-card strong { color: #e27bff; }
-.norage-card strong { color: #58b4ff; }
-.syndicate-card strong { color: #66f28d; }
+ .twitch-card strong { color: #e27bff; }
+.norage-card strong { color: #5fc9ff; }
+.syndicate-card strong { color: #f05cff; }
+.twitch-card .network-arrow { color: #e27bff; }
+.norage-card .network-arrow { color: #5fc9ff; }
+.syndicate-card .network-arrow { color: #f05cff; }
 .network-copy small { color: var(--muted); }
 .network-arrow { font-size: 1.55rem; }
 
