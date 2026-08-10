@@ -23,7 +23,8 @@
   "youtube": {
     "url": "https://www.youtube.com/@noragegaming2738",
     "label": "YouTube",
-    "description": "Vidéos, replays et meilleurs moments"
+    "description": "Vidéos, replays et meilleurs moments",
+    "image": "images/buttons/youtube.png"
   },
   "discords": [
     {

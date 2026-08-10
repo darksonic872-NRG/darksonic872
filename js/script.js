@@ -62,7 +62,14 @@ function renderHeroLinks(config) {
       image: discord.image,
       title: discord.nom,
       description: discord.description
-    }))
+    })),
+    {
+      className: 'youtube-card',
+      url: config.youtube.url,
+      image: config.youtube.image,
+      title: config.youtube.label,
+      description: config.youtube.description
+    }
   ];
 
   target.innerHTML = cards.map(card => `
@@ -160,7 +167,6 @@ async function initSite() {
     renderHeaderSocials(config);
     renderHeroLinks(config);
     renderUniverse(home);
-    renderFindMe(config);
     setupTwitch(config);
   } catch (error) {
     console.error(error);

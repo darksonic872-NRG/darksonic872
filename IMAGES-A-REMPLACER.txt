@@ -1,17 +1,15 @@
-DARKSONIC872 V2.3 — IMAGES DE L’INDEX
-
-Tous les visuels personnalisables de l’index sont maintenant en PNG.
-Pour changer une image : remplace le fichier en gardant EXACTEMENT le même nom.
+DARKSONIC872 — V2.6 — IMAGES DE L’INDEX
 
 BANNIÈRE
 images/hero/banniere.png
-Conseil : 1920 x 600 px
+Conseil : 1920 x 600 px (ou 2560 x 800 px)
 
-BOUTONS
+BOUTONS SOUS LA BANNIÈRE
 images/buttons/twitch.png
 images/buttons/noragegaming.png
 images/buttons/le-syndicate.png
-Conseil : image carrée, 800 x 800 px environ
+images/buttons/youtube.png
+Conseil : image carrée 800 x 800 px, logo centré.
 
 CARTES DE L’UNIVERS
 images/categories/collections.png
@@ -19,17 +17,9 @@ images/categories/jeux-de-coeur.png
 images/categories/retroachievements.png
 images/categories/emissions.png
 images/categories/evenements.png
-Conseil : 900 x 520 px, même format pour les cinq
+Conseil : 800 x 450 px, format 16:9.
 
-OÙ ME RETROUVER
-images/social/ou-me-retrouver.png
-
-TWITCH HORS LIGNE
+LIVE
 images/live/offline-cover.png
 
-Tu peux remplacer uniquement les PNG : aucun changement de code n’est nécessaire.
-
-CARTE RETROACHIEVEMENTS
-- fichier : images/categories/retroachievements.png
-- taille conseillée : 800 x 450 px (16:9)
-- pas besoin de texte dans l'image
+Pour remplacer une image : garder exactement le même nom et l’extension .png.

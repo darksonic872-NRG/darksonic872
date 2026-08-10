@@ -1,16 +1,11 @@
-# Site DarkSonic872 — V2.4
+# DarkSonic872 — V2.6
 
-Cette version passe tous les visuels personnalisables de l’index en **PNG**.
+Mise à jour de l’index :
+- suppression de la zone « Où me retrouver » ;
+- ajout de YouTube à côté de Twitch, NorageGaming et Le Syndicate sous la bannière ;
+- couleurs individuelles : Twitch violet, NorageGaming cyan, Le Syndicate magenta, YouTube rouge ;
+- 4 cartes en ligne sur grand écran, 2x2 sur écran intermédiaire, 1 colonne sur mobile ;
+- la zone Twitch « En ce moment sur la chaîne » utilise maintenant toute la largeur ;
+- RetroAchievements reste la troisième rubrique de l’univers.
 
-- Bannière : `images/hero/banniere.png`
-- Twitch : `images/buttons/twitch.png`
-- NorageGaming : `images/buttons/noragegaming.png`
-- Le Syndicate : `images/buttons/le-syndicate.png`
-
-La liste complète est dans `IMAGES-A-REMPLACER.txt`.
-
-Pour modifier une image plus tard, remplace simplement le PNG en gardant le même nom.
-
-
-## V2.4
-Couleurs des cartes sociales harmonisées avec les logos : Twitch violet, NorageGaming cyan/bleu, Le Syndicate magenta/violet.
+Le fichier `images/buttons/youtube.png` est un placeholder temporaire à remplacer par ton futur logo YouTube.
