@@ -18,12 +18,12 @@
       "image": "images/categories/jeux-de-coeur.png"
     },
     {
-      "id": "challenges",
-      "kicker": "Le tableau des",
-      "titre": "Défis",
-      "description": "Challenges, objectifs et exploits en live.",
-      "lien": "defis.html",
-      "image": "images/categories/defis.png"
+      "id": "retroachievements",
+      "kicker": "La salle des",
+      "titre": "RetroAchievements",
+      "description": "Masters, progression, derniers succès et classement de la team RA.",
+      "lien": "retroachievements.html",
+      "image": "images/categories/retroachievements.png"
     },
     {
       "id": "shows",

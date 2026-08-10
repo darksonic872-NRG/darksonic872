@@ -188,7 +188,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .universe-card:hover { transform: translateY(-7px); box-shadow: 0 0 30px color-mix(in srgb, var(--card-color) 28%, transparent); }
 .collections-card { --card-color: #d36cff; }
 .hearts-card { --card-color: #ff657d; }
-.challenges-card { --card-color: #ffd25c; }
+.retroachievements-card { --card-color: #ffd25c; }
 .shows-card { --card-color: #52a9ff; }
 .events-card { --card-color: #56ef82; }
 .card-visual { height: 128px; display: grid; place-items: center; border-bottom: 1px solid rgba(255,255,255,.09); color: rgba(255,255,255,.48); font-size: .78rem; background: linear-gradient(135deg, rgba(255,255,255,.055), rgba(255,255,255,.015)); }
@@ -330,3 +330,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .find-me-layout { grid-template-columns: 1fr; }
   .find-me-art { min-height: 180px; }
 }
+
+/* RetroAchievements */
+.ra-month-card{margin-top:18px;border-color:rgba(255,210,92,.65);box-shadow:0 0 30px rgba(255,210,92,.12)}

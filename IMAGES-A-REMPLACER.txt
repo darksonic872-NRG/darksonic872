@@ -16,7 +16,7 @@ Conseil : image carrée, 800 x 800 px environ
 CARTES DE L’UNIVERS
 images/categories/collections.png
 images/categories/jeux-de-coeur.png
-images/categories/defis.png
+images/categories/retroachievements.png
 images/categories/emissions.png
 images/categories/evenements.png
 Conseil : 900 x 520 px, même format pour les cinq
@@ -28,3 +28,8 @@ TWITCH HORS LIGNE
 images/live/offline-cover.png
 
 Tu peux remplacer uniquement les PNG : aucun changement de code n’est nécessaire.
+
+CARTE RETROACHIEVEMENTS
+- fichier : images/categories/retroachievements.png
+- taille conseillée : 800 x 450 px (16:9)
+- pas besoin de texte dans l'image
