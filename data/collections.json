@@ -1,0 +1,1020 @@
+{
+  "parPage": 30,
+  "note": "Les jeux présents sont des exemples de démonstration. Remplace-les progressivement par ta vraie collection.",
+  "plateformes": [
+    {
+      "id": "amiga",
+      "nom": "Amiga",
+      "famille": "Ordinateurs",
+      "image": "images/placeholder.svg",
+      "labelCourt": "AMIGA"
+    },
+    {
+      "id": "pc98",
+      "nom": "PC-98",
+      "famille": "Ordinateurs",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PC-98"
+    },
+    {
+      "id": "pc-bigbox",
+      "nom": "PC Big Box",
+      "famille": "Ordinateurs",
+      "image": "images/placeholder.svg",
+      "labelCourt": "BIG BOX"
+    },
+    {
+      "id": "gameboy",
+      "nom": "Game Boy",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "GAME BOY"
+    },
+    {
+      "id": "gameboy-color",
+      "nom": "Game Boy Color",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "GBC"
+    },
+    {
+      "id": "gameboy-advance",
+      "nom": "Game Boy Advance",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "GBA"
+    },
+    {
+      "id": "nes",
+      "nom": "NES",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "NES"
+    },
+    {
+      "id": "snes",
+      "nom": "Super Nintendo",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "SNES"
+    },
+    {
+      "id": "n64",
+      "nom": "Nintendo 64",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "N64"
+    },
+    {
+      "id": "gamecube",
+      "nom": "GameCube",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "GC"
+    },
+    {
+      "id": "wii",
+      "nom": "Wii",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "WII"
+    },
+    {
+      "id": "nds",
+      "nom": "Nintendo DS",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "DS"
+    },
+    {
+      "id": "3ds",
+      "nom": "Nintendo 3DS",
+      "famille": "Nintendo",
+      "image": "images/placeholder.svg",
+      "labelCourt": "3DS"
+    },
+    {
+      "id": "gamegear",
+      "nom": "Game Gear",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "GAME GEAR"
+    },
+    {
+      "id": "mastersystem",
+      "nom": "Master System",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "MASTER SYSTEM"
+    },
+    {
+      "id": "megadrive",
+      "nom": "Mega Drive",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "MEGA DRIVE"
+    },
+    {
+      "id": "megacd",
+      "nom": "Mega-CD",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "MEGA-CD"
+    },
+    {
+      "id": "saturn",
+      "nom": "Saturn",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "SATURN"
+    },
+    {
+      "id": "dreamcast",
+      "nom": "Dreamcast",
+      "famille": "SEGA",
+      "image": "images/placeholder.svg",
+      "labelCourt": "DREAMCAST"
+    },
+    {
+      "id": "ps1",
+      "nom": "PlayStation",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PS1"
+    },
+    {
+      "id": "ps2",
+      "nom": "PlayStation 2",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PS2"
+    },
+    {
+      "id": "ps3",
+      "nom": "PlayStation 3",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PS3"
+    },
+    {
+      "id": "ps4",
+      "nom": "PlayStation 4",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PS4"
+    },
+    {
+      "id": "psp",
+      "nom": "PSP",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "PSP"
+    },
+    {
+      "id": "psvita",
+      "nom": "PS Vita",
+      "famille": "Sony",
+      "image": "images/placeholder.svg",
+      "labelCourt": "VITA"
+    },
+    {
+      "id": "xbox",
+      "nom": "Xbox",
+      "famille": "Microsoft",
+      "image": "images/placeholder.svg",
+      "labelCourt": "XBOX"
+    },
+    {
+      "id": "xbox360",
+      "nom": "Xbox 360",
+      "famille": "Microsoft",
+      "image": "images/placeholder.svg",
+      "labelCourt": "XBOX 360"
+    },
+    {
+      "id": "xboxone",
+      "nom": "Xbox One",
+      "famille": "Microsoft",
+      "image": "images/placeholder.svg",
+      "labelCourt": "XBOX ONE"
+    }
+  ],
+  "jeux": [
+    {
+      "titre": "Jeu PS2 exemple 01",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 02",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 03",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 04",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 05",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 06",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 07",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 08",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 09",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 10",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 11",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 12",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 13",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 14",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 15",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 16",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 17",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 18",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 19",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 20",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 21",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 22",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 23",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 24",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 25",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 26",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 27",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 28",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 29",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 30",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 31",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 32",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 33",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 34",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 35",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 36",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 37",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 38",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 39",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 40",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 41",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 42",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 43",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 44",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 45",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 46",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 47",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 48",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 49",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 50",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 51",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 52",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 53",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 54",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 55",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 56",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 57",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 58",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 59",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 60",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 61",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 62",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 63",
+      "plateforme": "ps2",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 64",
+      "plateforme": "ps2",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS2 exemple 65",
+      "plateforme": "ps2",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 01",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 02",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 03",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 04",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 05",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 06",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 07",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 08",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 09",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 10",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 11",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 12",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 13",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 14",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 15",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 16",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 17",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 18",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 19",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 20",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 21",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 22",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 23",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 24",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 25",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 26",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 27",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 28",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 29",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 30",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 31",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 32",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 33",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 34",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 35",
+      "plateforme": "ps1",
+      "region": "US",
+      "etat": "Boîte",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 36",
+      "plateforme": "ps1",
+      "region": "PAL",
+      "etat": "Complet",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    },
+    {
+      "titre": "Jeu PS1 exemple 37",
+      "plateforme": "ps1",
+      "region": "JAP",
+      "etat": "Loose",
+      "image": "images/placeholder.svg",
+      "exemple": true
+    }
+  ]
+}

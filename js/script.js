@@ -148,10 +148,9 @@ async function initSite() {
       loadJSON('data/home.json')
     ]);
 
-    document.title = `${config.site.pseudo} — Gaming & rétro-gaming`;
-    $('#header-logo').src = config.site.logo;
-    $('#hero-banner').src = config.site.banner;
-    $('#copyright').textContent = config.site.copyright;
+    if ($('#header-logo')) $('#header-logo').src = config.site.logo;
+    if ($('#hero-banner')) $('#hero-banner').src = config.site.banner;
+    if ($('#copyright')) $('#copyright').textContent = config.site.copyright;
 
     const findMeArt = $('#find-me-art');
     if (findMeArt && config.site.findMeImage) {

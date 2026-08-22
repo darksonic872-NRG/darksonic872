@@ -1,0 +1,33 @@
+DARKSONIC872 — COLLECTIONS V1
+
+FONCTIONNEMENT
+- Page d'entrée : plateformes classées par famille.
+- Clic sur une plateforme : catalogue de ses jeux.
+- 30 jeux maximum par page.
+- Recherche par titre.
+- Tri A→Z / Z→A.
+- Filtres région et état.
+- Pagination automatique.
+- Tout est alimenté par data/collections.json.
+
+IMPORTANT
+Les jeux PS1 et PS2 présents dans cette V1 sont des EXEMPLES uniquement pour tester
+la pagination et le rendu. Ils ne représentent pas ta vraie collection.
+
+IMAGES À PRÉPARER PLUS TARD
+Plateformes :
+images/collections/platforms/
+Exemples de noms conseillés :
+ps1.png
+ps2.png
+gameboy.png
+gamegear.png
+amiga.png
+
+Jaquettes :
+images/collections/games/ps1/
+images/collections/games/ps2/
+etc.
+
+Quand on commencera à saisir ta vraie collection, on pourra remplacer les exemples
+progressivement sans toucher à la mise en page.
