@@ -1,10 +1,14 @@
-# DarkSonic872 — Collections V1
+# DarkSonic872 — Collections V2 Demo
 
-Base : index V2.6.
+Prototype interactif basé sur Collections V1.
 
-Cette version ajoute une vraie page Collections pensée pour une grosse ludothèque :
-plateformes par famille, recherche, catalogue par console, 30 jeux par page, pagination,
-tri A-Z/Z-A, filtres région/état et données centralisées dans `data/collections.json`.
+Objectif : valider l'interface avant la mise en place d'une base de données réelle.
 
-Les entrées PS1/PS2 incluses sont volontairement fictives et servent uniquement à tester
-la pagination avant d'ajouter la vraie collection.
+Fonctions simulées :
+- ajout / modification / suppression de plateformes ;
+- ajout / modification / suppression de jeux ;
+- import local temporaire d'une image ;
+- 30 jeux par page ;
+- recherche, tri et filtres.
+
+Les modifications sont uniquement en mémoire et disparaissent au rechargement.

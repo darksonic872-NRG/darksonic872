@@ -31,12 +31,20 @@
     <div class="wrap">
       <span class="eyebrow">Le musée des collections</span>
       <h1>Mes collections</h1>
-      <p>Choisis une plateforme pour explorer les jeux de ma collection. Le catalogue est prévu pour accueillir plusieurs centaines de titres sans devenir illisible.</p>
+      <p>Prototype V2 : teste ici le futur parcours d'administration avant qu'on connecte la vraie base de données.</p>
     </div>
   </section>
 
   <section class="collection-browser">
     <div class="wrap">
+      <div class="admin-demo-bar">
+        <div>
+          <strong>Mode démo administrateur</strong>
+          <span>Les ajouts et modifications disparaissent au rechargement de la page.</span>
+        </div>
+        <button class="admin-primary" id="add-platform-btn" type="button">+ Ajouter une console</button>
+      </div>
+
       <div id="platform-view">
         <div class="collection-toolbar">
           <div class="family-filters" id="family-filters"></div>
@@ -56,6 +64,7 @@
             <h2 id="catalog-title">Collection</h2>
             <p id="catalog-count"></p>
           </div>
+          <button class="admin-primary add-game-top" id="add-game-btn" type="button">+ Ajouter un jeu</button>
         </div>
 
         <div class="catalog-controls">
@@ -89,14 +98,23 @@
   </section>
 </main>
 
+<div class="modal-backdrop" id="admin-modal" hidden>
+  <section class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
+    <span class="eyebrow">Mode démo</span>
+    <h2 id="modal-title">Ajouter</h2>
+    <form id="admin-form"></form>
+  </section>
+</div>
+
 <footer class="site-footer">
   <div class="wrap footer-content">
     <p>© 2026 DarkSonic872 — Rétro-gaming, collections et découvertes.</p>
-    <p>Collection alimentée depuis <span>collections.json</span></p>
+    <p>Prototype Collections V2 — aucune donnée réelle enregistrée.</p>
   </div>
 </footer>
 
 <script src="js/script.js"></script>
-<script src="js/collections.js"></script>
+<script src="js/collections-v2.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+DARKSONIC872 — COLLECTIONS V2 DEMO
+
+Cette version sert uniquement à tester la future interface d'administration.
+
+Tu peux :
+- Ajouter une console / plateforme
+- Choisir son nom, sa famille, une image et une description
+- Modifier / supprimer une plateforme
+- Ouvrir une plateforme
+- Ajouter un jeu
+- Renseigner titre, région, état, année, genre, image et description
+- Modifier / supprimer un jeu
+- Rechercher, filtrer, trier
+- Afficher 30 jeux par page
+
+IMPORTANT :
+Aucune donnée n'est sauvegardée.
+Si tu actualises la page, tout revient à l'état de départ.
+
+C'est volontaire : on valide d'abord la mise en page et le parcours.
+Quand tu seras satisfait, on branchera la vraie sauvegarde avec authentification.
