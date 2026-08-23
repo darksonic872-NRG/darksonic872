@@ -1,120 +1,13 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="La collection gaming et rétro-gaming de DarkSonic872">
-  <title>Collections — DarkSonic872</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="collections-page">
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">DARK<span>SONIC872</span></a>
-    <button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="index.html">Accueil</a>
-      <a class="active" href="collections.html">Collections</a>
-      <a href="jeux-de-coeur.html">Jeux de cœur</a>
-      <a href="retroachievements.html">RetroAchievements</a>
-      <a href="emissions.html">Émissions</a>
-      <a href="evenements.html">Événements</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <section class="collection-hero">
-    <div class="wrap">
-      <span class="eyebrow">Le musée des collections</span>
-      <h1>Mes collections</h1>
-      <p>Prototype V2 : teste ici le futur parcours d'administration avant qu'on connecte la vraie base de données.</p>
-    </div>
-  </section>
-
-  <section class="collection-browser">
-    <div class="wrap">
-      <div class="admin-demo-bar">
-        <div>
-          <strong>Mode démo administrateur</strong>
-          <span>Les ajouts et modifications disparaissent au rechargement de la page.</span>
-        </div>
-        <button class="admin-primary" id="add-platform-btn" type="button">+ Ajouter une console</button>
-      </div>
-
-      <div id="platform-view">
-        <div class="collection-toolbar">
-          <div class="family-filters" id="family-filters"></div>
-          <label class="collection-search">
-            <span>⌕</span>
-            <input id="platform-search" type="search" placeholder="Rechercher une plateforme…" autocomplete="off">
-          </label>
-        </div>
-        <div class="platform-grid" id="platform-grid"></div>
-      </div>
-
-      <div id="games-view" hidden>
-        <div class="catalog-heading">
-          <button class="back-platforms" id="back-platforms" type="button">← Toutes les plateformes</button>
-          <div>
-            <span class="eyebrow" id="catalog-family"></span>
-            <h2 id="catalog-title">Collection</h2>
-            <p id="catalog-count"></p>
-          </div>
-          <button class="admin-primary add-game-top" id="add-game-btn" type="button">+ Ajouter un jeu</button>
-        </div>
-
-        <div class="catalog-controls">
-          <label class="collection-search grow">
-            <span>⌕</span>
-            <input id="game-search" type="search" placeholder="Rechercher un jeu…" autocomplete="off">
-          </label>
-          <select id="sort-games" aria-label="Trier les jeux">
-            <option value="az">Titre A → Z</option>
-            <option value="za">Titre Z → A</option>
-          </select>
-          <select id="region-filter" aria-label="Filtrer par région">
-            <option value="all">Toutes régions</option>
-            <option value="PAL">PAL</option>
-            <option value="JAP">JAP</option>
-            <option value="US">US</option>
-          </select>
-          <select id="state-filter" aria-label="Filtrer par état">
-            <option value="all">Tous états</option>
-            <option value="Complet">Complet</option>
-            <option value="Boîte">Boîte</option>
-            <option value="Loose">Loose</option>
-          </select>
-        </div>
-
-        <div class="demo-notice" id="demo-notice"></div>
-        <div class="games-grid" id="games-grid"></div>
-        <nav class="pagination" id="pagination" aria-label="Pagination de la collection"></nav>
-      </div>
-    </div>
-  </section>
-</main>
-
-<div class="modal-backdrop" id="admin-modal" hidden>
-  <section class="admin-modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
-    <span class="eyebrow">Mode démo</span>
-    <h2 id="modal-title">Ajouter</h2>
-    <form id="admin-form"></form>
-  </section>
-</div>
-
-<footer class="site-footer">
-  <div class="wrap footer-content">
-    <p>© 2026 DarkSonic872 — Rétro-gaming, collections et découvertes.</p>
-    <p>Prototype Collections V2 — aucune donnée réelle enregistrée.</p>
-  </div>
-</footer>
-
-<script src="js/script.js"></script>
-<script src="js/collections-v2.js"></script>
-</body>
-</html>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Collections — DarkSonic872</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head>
+<body class="collections-page"><header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">DARK<span>SONIC872</span></a><nav class="nav-links"><a href="index.html">Accueil</a><a class="active" href="collections.html">Collections</a><a href="jeux-de-coeur.html">Jeux de cœur</a><a href="retroachievements.html">RetroAchievements</a><a href="emissions.html">Émissions</a><a href="evenements.html">Événements</a></nav></div></header>
+<main><section class="collection-hero"><div class="wrap"><span class="eyebrow">Le musée des collections</span><h1>Mes collections</h1><p>Maquette du futur catalogue : consoles, jeux et fiches détaillées.</p></div></section>
+<section class="collection-browser"><div class="wrap">
+<div id="platforms"><div class="v3head"><div><span class="eyebrow">Ma ludothèque</span><h2>Choisir une plateforme</h2></div><button class="admin-primary" id="addConsole">+ Ajouter une console</button></div><div class="platform-grid" id="platformGrid"></div></div>
+<div id="games" hidden><button class="back-platforms" id="backPlatforms">← Mes collections</button><div class="v3head consolehead"><div><span class="eyebrow" id="family"></span><h2 id="consoleName"></h2><p id="gameCount"></p></div><button class="admin-primary" id="addGame">+ Ajouter un jeu</button></div><div class="catalog-controls"><label class="collection-search grow"><span>⌕</span><input id="searchGame" placeholder="Rechercher un jeu…"></label><select id="sort"><option value="az">Titre A → Z</option><option value="za">Titre Z → A</option></select></div><div class="simple-grid" id="gameGrid"></div></div>
+<div id="detail" hidden><button class="back-platforms" id="backGames">← Retour aux jeux</button><div class="detail-layout"><aside><div class="big-cover" id="bigCover"></div><button class="admin-primary full" id="editGame">Modifier ma fiche</button></aside><article><span class="eyebrow" id="detailPlatform"></span><h2 id="detailTitle"></h2><p class="lead" id="short"></p><div class="facts" id="facts"></div><section class="v3panel"><h3>Description du jeu</h3><p id="description"></p></section><section class="v3panel mine"><div class="mine-title"><h3>Mon exemplaire / Mon avis</h3><strong id="score"></strong></div><div class="facts" id="myfacts"></div><h3>Mon avis</h3><p id="opinion"></p></section><section class="v3panel anecdote"><h3>✦ Anecdote</h3><p id="anecdote"></p></section><section class="v3panel future"><span class="eyebrow">Prévu plus tard</span><h3>Note des visiteurs & commentaires</h3><p>Cette zone sera activée plus tard avec comptes, votes et modération.</p></section></article></div></div>
+</div></section></main>
+<div class="modal-backdrop" id="modal" hidden><section class="admin-modal-card v3modal"><button class="modal-close" id="close">×</button><span class="eyebrow" id="modalEye">Base de démonstration</span><h2 id="modalTitle"></h2><div id="modalBody"></div></section></div>
+<footer class="site-footer"><div class="wrap footer-content"><p>© 2026 DarkSonic872</p><p>Collections V3 — maquette interactive</p></div></footer>
+<script src="js/script.js"></script><script src="js/collections-v3.js"></script></body></html>

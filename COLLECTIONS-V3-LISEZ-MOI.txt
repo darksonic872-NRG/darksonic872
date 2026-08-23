@@ -1,0 +1,10 @@
+Collections V3 — MAQUETTE
+1. Page consoles
+2. Catalogue : boîtier + titre + mini-description
+3. Clic sur un jeu : fiche complète
+4. Ajouter une console : sélection simulée dans une base
+5. Ajouter un jeu : recherche simulée → infos préremplies → tes infos
+6. Note personnelle de -20 à +20
+7. Bloc Anecdote séparé
+8. Emplacement futur notes/commentaires visiteurs
+9. Aucune donnée n'est sauvegardée : c'est volontaire pour valider la mise en page.

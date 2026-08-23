@@ -1,0 +1,198 @@
+{
+  "parPage": 30,
+  "platforms": [
+    {
+      "id": "snes",
+      "name": "Super Nintendo",
+      "family": "Nintendo",
+      "short": "SNES"
+    },
+    {
+      "id": "ps1",
+      "name": "PlayStation",
+      "family": "Sony",
+      "short": "PS1"
+    },
+    {
+      "id": "ps2",
+      "name": "PlayStation 2",
+      "family": "Sony",
+      "short": "PS2"
+    },
+    {
+      "id": "gameboy",
+      "name": "Game Boy",
+      "family": "Nintendo",
+      "short": "GAME BOY"
+    },
+    {
+      "id": "gamegear",
+      "name": "Game Gear",
+      "family": "SEGA",
+      "short": "GAME GEAR"
+    },
+    {
+      "id": "amiga",
+      "name": "Amiga",
+      "family": "Ordinateurs",
+      "short": "AMIGA"
+    },
+    {
+      "id": "pc98",
+      "name": "PC-98",
+      "family": "Ordinateurs",
+      "short": "PC-98"
+    },
+    {
+      "id": "pcbig",
+      "name": "PC Big Box",
+      "family": "Ordinateurs",
+      "short": "BIG BOX"
+    },
+    {
+      "id": "ps4",
+      "name": "PlayStation 4",
+      "family": "Sony",
+      "short": "PS4"
+    }
+  ],
+  "games": [
+    {
+      "id": "sm",
+      "platform": "snes",
+      "title": "Super Metroid",
+      "year": "1994",
+      "genre": "Action / Aventure",
+      "developer": "Nintendo R&D1",
+      "publisher": "Nintendo",
+      "region": "PAL",
+      "condition": "Complet",
+      "short": "Exploration, ambiance et progression dans un grand classique 16-bit.",
+      "description": "Description de démonstration pour visualiser la future fiche détaillée.",
+      "score": 18,
+      "version": "PAL",
+      "opinion": "Exemple de ton avis personnel sur le jeu.",
+      "anecdote": "Exemple d'un souvenir ou d'une histoire liée à ce jeu."
+    },
+    {
+      "id": "dkc",
+      "platform": "snes",
+      "title": "Donkey Kong Country",
+      "year": "1994",
+      "genre": "Plateforme",
+      "developer": "Rare",
+      "publisher": "Nintendo",
+      "region": "PAL",
+      "condition": "Complet",
+      "short": "Un jeu de plateforme emblématique de la Super Nintendo.",
+      "description": "Description de démonstration.",
+      "score": 16,
+      "version": "PAL",
+      "opinion": "Ton avis apparaîtra ici.",
+      "anecdote": "Ton anecdote apparaîtra ici."
+    },
+    {
+      "id": "som",
+      "platform": "snes",
+      "title": "Secret of Mana",
+      "year": "1993",
+      "genre": "Action-RPG",
+      "developer": "Square",
+      "publisher": "Square",
+      "region": "PAL",
+      "condition": "Complet",
+      "short": "Une aventure colorée à parcourir seul ou à plusieurs.",
+      "description": "Description de démonstration.",
+      "score": 17,
+      "version": "PAL",
+      "opinion": "Ton avis apparaîtra ici.",
+      "anecdote": "Ton anecdote apparaîtra ici."
+    },
+    {
+      "id": "tombi",
+      "platform": "ps1",
+      "title": "Tombi!",
+      "year": "1997",
+      "genre": "Plateforme / Aventure",
+      "developer": "Whoopee Camp",
+      "publisher": "Sony",
+      "region": "PAL",
+      "condition": "Complet",
+      "short": "Une aventure PS1 originale, colorée et pleine de personnalité.",
+      "description": "Description de démonstration.",
+      "score": 20,
+      "version": "PAL",
+      "opinion": "Ton avis personnel sera affiché ici.",
+      "anecdote": "Une anecdote personnelle sera mise en avant ici."
+    },
+    {
+      "id": "tenchu",
+      "platform": "ps2",
+      "title": "Tenchu: Wrath of Heaven",
+      "year": "2003",
+      "genre": "Infiltration / Action",
+      "developer": "K2",
+      "publisher": "Activision",
+      "region": "PAL",
+      "condition": "Complet",
+      "short": "Infiltration ninja et missions nocturnes.",
+      "description": "Description de démonstration.",
+      "score": 19,
+      "version": "PAL",
+      "opinion": "Ton avis personnel sera affiché ici.",
+      "anecdote": "Une anecdote liée au jeu sera affichée ici."
+    }
+  ],
+  "dbPlatforms": [
+    {
+      "id": "megadrive",
+      "name": "Mega Drive",
+      "family": "SEGA",
+      "short": "MEGA DRIVE"
+    },
+    {
+      "id": "dreamcast",
+      "name": "Dreamcast",
+      "family": "SEGA",
+      "short": "DREAMCAST"
+    },
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "family": "Nintendo",
+      "short": "N64"
+    },
+    {
+      "id": "ps3",
+      "name": "PlayStation 3",
+      "family": "Sony",
+      "short": "PS3"
+    }
+  ],
+  "dbGames": [
+    {
+      "title": "Chrono Trigger",
+      "year": "1995",
+      "genre": "RPG",
+      "developer": "Square",
+      "publisher": "Square",
+      "short": "RPG 16-bit"
+    },
+    {
+      "title": "Super Mario World",
+      "year": "1990",
+      "genre": "Plateforme",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "short": "Plateforme 16-bit"
+    },
+    {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "year": "1991",
+      "genre": "Action / Aventure",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "short": "Action-aventure"
+    }
+  ]
+}
