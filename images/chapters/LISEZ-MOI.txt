@@ -1,0 +1,14 @@
+IMAGES DE FOND DES BANNIÈRES — LEGEND OF LEGAIA
+
+Remplace simplement les fichiers suivants par tes propres captures du jeu.
+Format conseillé : JPG ou PNG horizontal, environ 1600x500 à 1800x600 (ratio proche de 3:1).
+Le cadre, le titre et le nom du chapitre sont ajoutés automatiquement par le HTML/CSS.
+
+Fichiers attendus :
+- chapitre-1-rim-elm.jpg
+- chapitre-2-hunters-spring-drake-castle.jpg
+- chapitre-2b-snowdrift-mt-rikuroa.jpg
+- chapitre-3-drake-biron.jpg
+- chapitre-4-west-voz-forest.jpg
+
+Pour les prochains chapitres, copie simplement le bloc .chapter-banner dans soluce-legend-of-legaia.html et change le nom du fichier dans --chapter-bg.
