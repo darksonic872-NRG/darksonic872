@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Tableau de bord RetroAchievements de DarkSonic872">
+  <meta name="description" content="RetroAchievements, classements et soluces 100 % de DarkSonic872">
   <title>RetroAchievements — DarkSonic872</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">DARK<span>SONIC872</span></a><button class="menu-btn" aria-label="Ouvrir le menu">☰</button><nav class="nav-links"><a href="index.html">Accueil</a><a href="collections.html">Collections</a><a href="jeux-de-coeur.html">Jeux de cœur</a><a href="retroachievements.html">RetroAchievements</a><a href="emissions.html">Émissions</a><a href="evenements.html">Événements</a></nav></div></header>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">DARK<span>SONIC872</span></a><button class="menu-btn" aria-label="Ouvrir le menu">☰</button><nav class="nav-links"><a href="index.html">Accueil</a><a href="collections.html">Collections</a><a href="jeux-de-coeur.html">Jeux de cœur</a><a class="active" href="retroachievements.html">RetroAchievements</a><a href="emissions.html">Émissions</a><a href="evenements.html">Événements</a></nav></div></header>
 <main>
-  <section class="page-hero"><div class="wrap"><span class="eyebrow">La salle des succès</span><h1>RetroAchievements</h1><p>Une future page reliée au compte RA : masters, derniers succès, jeux récents, progression et classement de la team.</p></div></section>
+  <section class="page-hero"><div class="wrap"><span class="eyebrow">La salle des succès</span><h1>RetroAchievements</h1><p>Suivi des masters, activité de la team, classements et guides 100 % conçus pour ne rater aucun achievement.</p></div></section>
+
   <section><div class="wrap">
     <div class="grid grid-2">
       <article class="card"><span class="status">Profil principal</span><h3>Mon profil RetroAchievements</h3><p>Avatar, points officiels, rang, dernier jeu lancé et dernier achievement débloqué.</p></article>
@@ -22,7 +23,33 @@
       <article class="card"><span class="status">Classements</span><h3>Points officiels & points du mois</h3><p>Deux classements : total officiel RetroAchievements et points gagnés pendant le mois en cours.</p></article>
     </div>
     <article class="card ra-month-card"><span class="status">🏆 Achievementeur du mois</span><h3>Le meilleur chasseur de succès du mois</h3><p>L’avatar du joueur ayant gagné le plus de points pendant le mois apparaîtra ici avec un cadre doré et son total mensuel.</p></article>
-    <p class="small" style="margin-top:18px">L’intégration dynamique sera branchée plus tard via l’API RetroAchievements avec la clé conservée côté serveur, jamais dans le JavaScript public.</p>
+  </div></section>
+
+  <section class="ra-guides-section" id="soluces"><div class="wrap">
+    <div class="section-heading"><span></span><h2>🎮 Soluces & Guides 100 %</h2><span></span></div>
+    <p class="ra-guides-intro">Des guides pensés spécialement pour RetroAchievements : cheminement complet, trésors numérotés, achievements ratables, Seru, Arts, boss et checklists de fin de zone.</p>
+
+    <div class="ra-guide-grid">
+      <a class="ra-guide-card" href="soluce-legend-of-legaia.html">
+        <div class="ra-guide-cover">
+          <div class="ra-guide-cover-placeholder"><strong>LEGEND OF LEGAIA</strong><span>PlayStation</span></div>
+          <span class="ra-guide-badge">Guide en cours</span>
+        </div>
+        <div class="ra-guide-copy">
+          <span class="status">PS1 • RetroAchievements</span>
+          <h3>Legend of Legaia — Soluce complète FR</h3>
+          <p>Soluce 100 % en français avec les 260 trésors, Arts, Seru, boss, objets cachés et achievements ratables.</p>
+          <div class="ra-guide-meta"><span>🏴‍☠️ 260 trésors</span><span>🏆 Guide RA</span><span>📷 Emplacements prévus</span></div>
+          <strong class="ra-guide-link">Ouvrir la soluce →</strong>
+        </div>
+      </a>
+
+      <article class="ra-guide-card ra-guide-coming">
+        <div class="ra-guide-cover"><div class="ra-guide-cover-placeholder"><strong>PROCHAIN GUIDE</strong><span>À venir</span></div></div>
+        <div class="ra-guide-copy"><span class="status">Future soluce</span><h3>Un autre jeu RetroAchievements</h3><p>Cette carte servira de modèle pour les prochains guides ajoutés à la section.</p></div>
+      </article>
+    </div>
+    <p class="small" style="margin-top:18px">L’intégration dynamique du profil RA sera branchée plus tard via l’API RetroAchievements avec la clé conservée côté serveur, jamais dans le JavaScript public.</p>
   </div></section>
 </main>
 <footer class="site-footer"><div class="wrap"><p class="small">© 2026 DarkSonic872 — Rétro-gaming, collections et découvertes.</p></div></footer>
