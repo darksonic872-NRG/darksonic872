@@ -1,14 +1,75 @@
 (function(){
-  const treasureKey = "legaia_treasures_v1";
-  const objectiveKey = "legaia_objectives_v1";
-  const treasureInputs = Array.from(document.querySelectorAll('input[data-tracker="treasure"]'));
-  const objectiveInputs = Array.from(document.querySelectorAll('input[data-tracker="objective"]'));
-  if (!treasureInputs.length && !objectiveInputs.length) return;
+  const types = [
+    { name: 'treasure', key: 'legaia_track_treasure_v2', countId: 'count-treasure', barId: 'bar-treasure' },
+    { name: 'seru', key: 'legaia_track_seru_v2', countId: 'count-seru', barId: 'bar-seru' },
+    { name: 'art', key: 'legaia_track_art_v2', countId: 'count-art', barId: 'bar-art' },
+    { name: 'achievement', key: 'legaia_track_achievement_v2', countId: 'count-achievement', barId: 'bar-achievement' }
+  ];
+
   function load(key){ try { return JSON.parse(localStorage.getItem(key) || '[]'); } catch(e){ return []; } }
   function save(key, values){ localStorage.setItem(key, JSON.stringify(values)); }
-  function applyState(inputs, checkedValues){ const set = new Set(checkedValues); inputs.forEach(input => { input.checked = set.has(input.value); }); }
+
+  const map = {};
+  types.forEach(type => {
+    type.inputs = Array.from(document.querySelectorAll(`input[data-tracker="${type.name}"]`));
+    map[type.name] = type;
+    const checked = new Set(load(type.key));
+    type.inputs.forEach(input => { input.checked = checked.has(input.value); });
+  });
+
   function currentValues(inputs){ return inputs.filter(i => i.checked).map(i => i.value); }
-  function updateGroupCounts(){ document.querySelectorAll('.tracker-checklist[data-group]').forEach(group => { const id = group.dataset.group; const inputs = Array.from(group.querySelectorAll('input[type="checkbox"]')); const checked = inputs.filter(i => i.checked).length; const badge = document.querySelector('[data-count-for="' + id + '"]'); if (badge) badge.textContent = `${checked} / ${inputs.length}`; }); }
-  function updateTotals(){ const treasureChecked = treasureInputs.filter(i => i.checked).length; const objectiveChecked = objectiveInputs.filter(i => i.checked).length; const treasureCount = document.getElementById('treasure-overall-count'); const treasureBar = document.getElementById('treasure-overall-bar'); const objectiveCount = document.getElementById('objective-overall-count'); const objectiveBar = document.getElementById('objective-overall-bar'); if (treasureCount) treasureCount.textContent = `${treasureChecked} / ${treasureInputs.length} trouvés`; if (treasureBar) treasureBar.style.width = `${treasureInputs.length ? (treasureChecked / treasureInputs.length) * 100 : 0}%`; if (objectiveCount) objectiveCount.textContent = `${objectiveChecked} / ${objectiveInputs.length} validés`; if (objectiveBar) objectiveBar.style.width = `${objectiveInputs.length ? (objectiveChecked / objectiveInputs.length) * 100 : 0}%`; updateGroupCounts(); }
-  function persist(){ save(treasureKey, currentValues(treasureInputs)); save(objectiveKey, currentValues(objectiveInputs)); updateTotals(); }
-  applyState(treasureInputs, load(treasureKey)); applyState(objectiveInputs, load(objectiveKey)); updateTotals(); [...treasureInputs, ...objectiveInputs].forEach(input => input.addEventListener('change', persist)); const resetTreasures = document.getElementById('reset-treasures-btn'); if (resetTreasures) resetTreasures.addEventListener('click', () => { treasureInputs.forEach(i => i.checked = false); save(treasureKey, []); updateTotals(); }); const resetAll = document.getElementById('reset-all-btn'); if (resetAll) resetAll.addEventListener('click', () => { treasureInputs.forEach(i => i.checked = false); objectiveInputs.forEach(i => i.checked = false); save(treasureKey, []); save(objectiveKey, []); updateTotals(); });})();
+
+  function updateType(type){
+    const total = type.inputs.length;
+    const checked = type.inputs.filter(i => i.checked).length;
+    const countNode = document.getElementById(type.countId);
+    const barNode = document.getElementById(type.barId);
+    if (countNode) countNode.textContent = `${checked} / ${total}`;
+    if (barNode) barNode.style.width = `${total ? (checked / total) * 100 : 0}%`;
+  }
+
+  function updateGroups(){
+    document.querySelectorAll('.tracker-checklist[data-group]').forEach(group => {
+      const inputs = Array.from(group.querySelectorAll('input[type="checkbox"]'));
+      const checked = inputs.filter(i => i.checked).length;
+      const badge = document.querySelector(`[data-count-for="${group.dataset.group}"]`);
+      if (badge) badge.textContent = `${checked} / ${inputs.length}`;
+    });
+  }
+
+  function persistType(typeName){
+    const type = map[typeName];
+    if (!type) return;
+    save(type.key, currentValues(type.inputs));
+    updateType(type);
+    updateGroups();
+  }
+
+  types.forEach(type => {
+    type.inputs.forEach(input => {
+      input.addEventListener('change', () => persistType(type.name));
+    });
+    updateType(type);
+  });
+  updateGroups();
+
+  const resetCurrent = document.getElementById('reset-current-btn');
+  if (resetCurrent) resetCurrent.addEventListener('click', () => {
+    types.forEach(type => {
+      type.inputs.forEach(i => i.checked = false);
+      save(type.key, []);
+      updateType(type);
+    });
+    updateGroups();
+  });
+
+  const resetAll = document.getElementById('reset-all-btn');
+  if (resetAll) resetAll.addEventListener('click', () => {
+    types.forEach(type => {
+      type.inputs.forEach(i => i.checked = false);
+      save(type.key, []);
+      updateType(type);
+    });
+    updateGroups();
+  });
+})();
