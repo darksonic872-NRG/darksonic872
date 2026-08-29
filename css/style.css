@@ -588,3 +588,284 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .chapter-banner::before{inset:8px}
   .chapter-banner-shade{padding:28px 24px}
 }
+
+
+/* --- Maquette RPG Soluce : Legend of Legaia --- */
+.guide-page.rpgsoluce {
+  background:
+    linear-gradient(180deg, rgba(8,10,20,.95), rgba(8,10,20,.97)),
+    radial-gradient(circle at 12% 10%, rgba(104, 122, 255, 0.08), transparent 22%),
+    radial-gradient(circle at 88% 22%, rgba(255, 214, 120, 0.06), transparent 18%),
+    #0b0d15;
+}
+.guide-page.rpgsoluce::before {
+  opacity: .06;
+  background-size: 64px 64px;
+}
+.rpgsoluce .guide-hero {
+  padding: 56px 0 34px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  background: linear-gradient(180deg, rgba(18,22,37,.92), rgba(10,12,22,.98));
+}
+.rpgsoluce .guide-back {
+  color: #a8d4ff;
+  font-size: .92rem;
+}
+.rpgsoluce .guide-hero .eyebrow,
+.rpgsoluce .guide-kicker {
+  color: #dcbf77;
+  letter-spacing: .08em;
+}
+.rpgsoluce .guide-hero h1 {
+  margin-bottom: 10px;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.7rem);
+  line-height: 1.08;
+  text-transform: none;
+  letter-spacing: .01em;
+  background: none;
+  color: #f6f2e7;
+}
+.rpgsoluce .guide-hero p {
+  max-width: 930px;
+  color: #c7ccd8;
+}
+.rpgsoluce .guide-save-note {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  max-width: 780px;
+  border: 1px solid rgba(220, 191, 119, .25);
+  border-radius: 10px;
+  background: rgba(220, 191, 119, .06);
+  color: #e7dbc0;
+  font-size: .9rem;
+}
+.rpgsoluce .guide-stats span {
+  border-color: rgba(255,255,255,.08);
+  background: rgba(255,255,255,.04);
+  color: #e7e9ef;
+}
+.rpgsoluce .guide-layout {
+  grid-template-columns: 285px minmax(0,1fr);
+  gap: 28px;
+  padding-top: 28px;
+}
+.rpgsoluce .guide-progress,
+.rpgsoluce .guide-toc {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  background: #121625;
+  box-shadow: 0 10px 35px rgba(0,0,0,.18);
+}
+.rpgsoluce .guide-progress strong,
+.rpgsoluce .guide-toc strong {
+  font-family: 'Merriweather', Georgia, serif;
+  color: #f4ead2;
+  font-size: 1rem;
+}
+.rpgsoluce .guide-progress-bar {
+  background: rgba(255,255,255,.06);
+}
+.rpgsoluce .guide-progress-bar i {
+  background: linear-gradient(90deg, #8eb5ff, #dcbf77);
+  box-shadow: none;
+}
+.rpgsoluce .guide-toc a {
+  margin-bottom: 2px;
+  border-left: 2px solid transparent;
+  border-radius: 0 8px 8px 0;
+  font-size: .9rem;
+}
+.rpgsoluce .guide-toc a:hover {
+  border-left-color: #dcbf77;
+  background: rgba(220,191,119,.06);
+}
+.rpgsoluce .toc-style-note {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: rgba(142,181,255,.1);
+  color: #b8d3ff;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.rpgsoluce .guide-section {
+  margin-bottom: 28px;
+  padding: 24px 26px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  background: #141a2a;
+  box-shadow: 0 10px 40px rgba(0,0,0,.16);
+}
+.rpgsoluce .guide-section h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: #f6f1e4;
+}
+.rpgsoluce .guide-section h3 {
+  color: #f0f2f8;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.12rem;
+}
+.rpgsoluce .guide-section h4 {
+  color: #dcbf77;
+  font-size: 1rem;
+}
+.rpgsoluce .guide-section p {
+  color: #c9cfdb;
+}
+.rpgsoluce .chapter-banner {
+  position: relative;
+  overflow: hidden;
+  margin: -24px -26px 20px;
+  border-radius: 14px 14px 0 0;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  background:
+    linear-gradient(180deg, rgba(8,11,21,.15), rgba(8,11,21,.65)),
+    var(--chapter-bg) center/cover no-repeat,
+    linear-gradient(135deg, #161b2d, #0b0f1c);
+}
+.rpgsoluce .chapter-banner-shade {
+  min-height: 190px;
+  display: flex;
+  align-items: end;
+  background: linear-gradient(180deg, rgba(8,11,21,.12), rgba(8,11,21,.82));
+}
+.rpgsoluce .chapter-banner-copy {
+  width: 100%;
+  padding: 22px 24px;
+}
+.rpgsoluce .chapter-banner-number {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: rgba(220,191,119,.14);
+  border: 1px solid rgba(220,191,119,.32);
+  color: #e9d39c;
+  font-family: Inter, Arial, sans-serif;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.rpgsoluce .chapter-banner-title {
+  margin: 0 0 10px;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: clamp(1.5rem, 4vw, 2.35rem);
+  color: #ffffff;
+  text-shadow: 0 2px 14px rgba(0,0,0,.45);
+}
+.rpgsoluce .chapter-banner-game {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  color: #d8dde8;
+  font-size: .82rem;
+}
+.rpgsoluce .guide-step {
+  display: block;
+  margin: 18px 0;
+  padding: 0 0 0 18px;
+  border: 0;
+  border-left: 3px solid rgba(142,181,255,.35);
+  border-radius: 0;
+  background: transparent;
+}
+.rpgsoluce .guide-step > span {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin: 0 0 8px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(142,181,255,.1);
+  color: #bdd4ff;
+  box-shadow: none;
+  font-family: Inter, Arial, sans-serif;
+  font-size: .74rem;
+  font-weight: 800;
+}
+.rpgsoluce .guide-step h3 {
+  margin: 0 0 8px;
+  color: #f7f8fb;
+}
+.rpgsoluce .guide-step p {
+  line-height: 1.72;
+}
+.rpgsoluce .guide-alert {
+  border-radius: 10px;
+  border-width: 1px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.02);
+}
+.rpgsoluce .guide-alert.warning {
+  border-color: rgba(220,191,119,.28);
+  background: rgba(220,191,119,.06);
+}
+.rpgsoluce .guide-alert.danger {
+  border-color: rgba(219,106,106,.35);
+  background: rgba(219,106,106,.08);
+}
+.rpgsoluce .guide-alert.achievement {
+  border-color: rgba(107,181,125,.35);
+  background: rgba(107,181,125,.08);
+}
+.rpgsoluce .guide-note {
+  border-left: 3px solid #dcbf77;
+  border-radius: 0 8px 8px 0;
+  background: rgba(255,255,255,.03);
+  color: #dfe4ee;
+}
+.rpgsoluce .guide-legend span {
+  border-color: rgba(255,255,255,.08);
+  background: rgba(255,255,255,.03);
+  color: #dfe4ee;
+}
+.rpgsoluce .treasure-summary {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  background: #101523;
+}
+.rpgsoluce .treasure-summary h3 {
+  font-family: 'Merriweather', Georgia, serif;
+  color: #f1e6c4;
+}
+.rpgsoluce .treasure-row {
+  margin: 8px 0;
+  border: 1px solid rgba(255,255,255,.07);
+  border-radius: 8px;
+  background: rgba(255,255,255,.03);
+}
+.rpgsoluce .treasure-row:hover {
+  border-color: rgba(220,191,119,.28);
+}
+.rpgsoluce .treasure-row small {
+  color: #a9d0ff;
+}
+.rpgsoluce .treasure-total {
+  color: #f0ddb2 !important;
+}
+.rpgsoluce .global-check-grid > div {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  background: rgba(255,255,255,.03);
+}
+.rpgsoluce .guide-next {
+  border: 1px solid rgba(255,255,255,.1);
+  background: #121625;
+}
+.rpgsoluce .guide-next span {
+  color: #dcbf77;
+}
+@media (max-width: 1000px) {
+  .rpgsoluce .guide-layout { grid-template-columns: 1fr; }
+  .rpgsoluce .guide-sidebar { position: static; }
+}
+@media (max-width: 650px) {
+  .rpgsoluce .chapter-banner { margin: -19px -19px 18px; }
+  .rpgsoluce .chapter-banner-shade { min-height: 165px; }
+  .rpgsoluce .guide-section { padding: 19px; }
+  .rpgsoluce .guide-step { padding-left: 14px; }
+}
