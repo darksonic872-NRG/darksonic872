@@ -12,3 +12,10 @@ Fonctions simulées :
 - recherche, tri et filtres.
 
 Les modifications sont uniquement en mémoire et disparaissent au rechargement.
+
+
+## V4.5
+- Ajout Chapitre 10 — Vidna & pêche (objets 90–95)
+- Ajout Chapitre 11 — Octam & Star Pearl (objets 96–98)
+- Screens intégrés pour 90–98, Orb, Books of Prophecy et ennemis Octam
+- Suivi étendu à 98 trésors, Orb et 2 objectifs pêche RA
