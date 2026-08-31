@@ -191,3 +191,6 @@ filterButtons.forEach(button => {
     });
   });
 });
+
+// V4.0 lightbox captures
+document.addEventListener('DOMContentLoaded',()=>{const rows=[...document.querySelectorAll('.treasure-row[data-image]')];if(!rows.length)return;const box=document.createElement('div');box.className='guide-lightbox';box.innerHTML='<button type="button" aria-label="Fermer">×</button><img alt="Capture d’emplacement">';document.body.appendChild(box);const img=box.querySelector('img');const close=()=>box.classList.remove('open');box.querySelector('button').addEventListener('click',close);box.addEventListener('click',e=>{if(e.target===box)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});rows.forEach(r=>r.addEventListener('click',()=>{img.src=r.dataset.image;box.classList.add('open')}));});
