@@ -1,0 +1,10 @@
+MISE À JOUR V4.6 — CHAPITRE 12 UNIQUEMENT
+
+Cette archive ne contient QUE les nouveautés/modifications nécessaires.
+À envoyer sur GitHub en conservant les dossiers :
+- soluce-legend-of-legaia.html
+- suivi-legend-of-legaia.html
+- images/legaia/treasure-99.png à treasure-113.png
+
+Tu n'as pas besoin de renvoyer tout le site.
+Total : 17 fichiers modifiés/nouveaux + ce fichier d'information.
