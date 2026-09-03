@@ -1,0 +1,18 @@
+MISE À JOUR V4.8 — CHAPITRES 13 & 14
+
+Fichiers à remplacer/ajouter uniquement :
+- soluce-legend-of-legaia.html
+- suivi-legend-of-legaia.html
+- images/legaia/* (nouvelles captures)
+
+Corrections principales :
+- Chapitre 13 Fire Path terminé jusqu’à 126/260.
+- Avertissement clair pour les 2 coffres à attendre après le gel.
+- Ennemis des piliers et de la zone de lave ajoutés.
+- Conseils boss Xain ajoutés.
+- Chapitre 14 entièrement réécrit : Underground Octam -> Vidna -> Underground Octam -> Ratayu -> Mt. Letona.
+- Objets #127 à #142 intégrés avec captures.
+- Ennemis de Ratayu et du château ajoutés.
+- Tracker corrigé jusqu’à 142/260.
+
+NOTE : les captures des trésors #121 à #126 après le gel ne sont pas encore dans cette mise à jour ; les emplacements et le suivi sont intégrés, et les 2 captures avant gel servent d’avertissement.
